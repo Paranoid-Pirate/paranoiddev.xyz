@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&family=Source+Code+Pro:wght@300&display=swap');
 
+/*Pallete
+Background: rgb(46, 57, 66);
+Accent: rgb(228, 119, 47);
+*/
+
 html{
     background-color: rgb(46, 57, 66);
     color:white;
     font-family: 'Source Code Pro', monospace;
 }
 
-h2{
-    font-size:20px;
+hr{
+    border:1px solid white;
+    background-color:white;
+    height: 4px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+span{
+    color: rgb(228, 119, 47);
 }
 
 a{
@@ -17,4 +32,15 @@ a{
 
 a:hover{
     color:rgb(228, 119, 47);
+}
+
+div{
+    text-align:center;
+    h1{
+        text-align:center;
+        font-size:30;
+    }
+    h2{
+        font-size:20;
+    }
 }
