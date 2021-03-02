@@ -3,12 +3,20 @@
 /*Pallete
 Background: rgb(46, 57, 66);
 Accent: rgb(228, 119, 47);
+SCSS: rgb(218, 96, 230);
 */
 
 html{
     background-color: rgb(46, 57, 66);
     color:white;
     font-family: 'Source Code Pro', monospace;
+}
+
+input{
+    background-color:rgb(46, 57, 66);
+    border:1px solid white;
+    font-family:'Source Code Pro', monospace;
+    color:white;
 }
 
 hr{
